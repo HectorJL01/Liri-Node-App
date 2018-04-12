@@ -1,7 +1,7 @@
 
 // console.log('this is loaded');
 
-exports.twitter = {
+var twitterKeys = {
   consumer_key: "sQg39JyXlsFEoqezQ6N1bdnFF",
   consumer_secret: "FdByMwcbnNgPGNDrcE88PihuPcb72yrZURaZVXcEaHt5Gs48mQ",
   access_token_key: "982718996549160961-2NShShf3LDqLkP1G3TK1yzv2KAiRnYb",
@@ -12,3 +12,4 @@ exports.twitter = {
 //   id: process.env.SPOTIFY_ID,
 //   secret: process.env.SPOTIFY_SECRET
 // };
+module.exports = twitterKeys;
